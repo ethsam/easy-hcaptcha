@@ -3,10 +3,10 @@
     "description": "This package provides an easy way to integrate hCaptcha into your Symfony application.",
     "type": "library",
     "require": {
-        "symfony/dependency-injection": "^7.1",
-        "symfony/http-client": "^7.1"
+        "php": ">=7.4",
+        "symfony/dependency-injection": "^4.4|^5.0|^6.0|^7.0",
+        "symfony/http-client": "^4.4|^5.0|^6.0|^7.0"
     },
-    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Ethsam\\EasyHcaptcha\\": "src/"
@@ -18,5 +18,5 @@
             "email": "contact@ethsam.fr"
         }
     ],
-    "minimum-stability": "stable"
+    "license": "MIT"
 }
