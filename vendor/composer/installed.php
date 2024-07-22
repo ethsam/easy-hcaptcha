@@ -1,0 +1,131 @@
+<?php return array(
+    'root' => array(
+        'name' => 'ethsam/easy-hcaptcha',
+        'pretty_version' => '1.0.0+no-version-set',
+        'version' => '1.0.0.0',
+        'reference' => NULL,
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => true,
+    ),
+    'versions' => array(
+        'ethsam/easy-hcaptcha' => array(
+            'pretty_version' => '1.0.0+no-version-set',
+            'version' => '1.0.0.0',
+            'reference' => NULL,
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'php-http/async-client-implementation' => array(
+            'dev_requirement' => false,
+            'provided' => array(
+                0 => '*',
+            ),
+        ),
+        'php-http/client-implementation' => array(
+            'dev_requirement' => false,
+            'provided' => array(
+                0 => '*',
+            ),
+        ),
+        'psr/container' => array(
+            'pretty_version' => '2.0.2',
+            'version' => '2.0.2.0',
+            'reference' => 'c71ecc56dfe541dbd90c5360474fbc405f8d5963',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../psr/container',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'psr/container-implementation' => array(
+            'dev_requirement' => false,
+            'provided' => array(
+                0 => '1.1|2.0',
+            ),
+        ),
+        'psr/http-client-implementation' => array(
+            'dev_requirement' => false,
+            'provided' => array(
+                0 => '1.0',
+            ),
+        ),
+        'psr/log' => array(
+            'pretty_version' => '3.0.0',
+            'version' => '3.0.0.0',
+            'reference' => 'fe5ea303b0887d5caefd3d431c3e61ad47037001',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../psr/log',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'symfony/dependency-injection' => array(
+            'pretty_version' => 'v7.1.2',
+            'version' => '7.1.2.0',
+            'reference' => '6e108cded928bdafaf1da3fabe30dd5af20e36b9',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../symfony/dependency-injection',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'symfony/deprecation-contracts' => array(
+            'pretty_version' => 'v3.5.0',
+            'version' => '3.5.0.0',
+            'reference' => '0e0d29ce1f20deffb4ab1b016a7257c4f1e789a1',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../symfony/deprecation-contracts',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'symfony/http-client' => array(
+            'pretty_version' => 'v7.1.2',
+            'version' => '7.1.2.0',
+            'reference' => '90ace27d17ccc9afc6f7ec0081e8529fb0e29425',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../symfony/http-client',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'symfony/http-client-contracts' => array(
+            'pretty_version' => 'v3.5.0',
+            'version' => '3.5.0.0',
+            'reference' => '20414d96f391677bf80078aa55baece78b82647d',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../symfony/http-client-contracts',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'symfony/http-client-implementation' => array(
+            'dev_requirement' => false,
+            'provided' => array(
+                0 => '3.0',
+            ),
+        ),
+        'symfony/service-contracts' => array(
+            'pretty_version' => 'v3.5.0',
+            'version' => '3.5.0.0',
+            'reference' => 'bd1d9e59a81d8fa4acdcea3f617c581f7475a80f',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../symfony/service-contracts',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'symfony/service-implementation' => array(
+            'dev_requirement' => false,
+            'provided' => array(
+                0 => '1.1|2.0|3.0',
+            ),
+        ),
+        'symfony/var-exporter' => array(
+            'pretty_version' => 'v7.1.2',
+            'version' => '7.1.2.0',
+            'reference' => 'b80a669a2264609f07f1667f891dbfca25eba44c',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../symfony/var-exporter',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+    ),
+);

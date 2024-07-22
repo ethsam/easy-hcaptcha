@@ -1,0 +1,5 @@
+services:
+    Ethsam\EasyHcaptcha\HcaptchaVerifier:
+        arguments:
+            $params: '@parameter_bag'
+            $client: '@http_client'
