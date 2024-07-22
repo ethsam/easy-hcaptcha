@@ -28,10 +28,19 @@ parameters:
 
 ## Usage
 
-In your Twig template, include the hCaptcha widget:
+In your Twig template, include the hCaptcha widget and script:
 
 ```twig
-<div class="h-captcha" data-sitekey="{{ hcaptcha_site_key }}"></div>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ title }}</title>
+    <script src="https://js.hcaptcha.com/1/api.js" async defer></script>
+</head>
+<body>
+    <div class="h-captcha" data-sitekey="{{ hcaptcha_site_key }}"></div>
+</body>
+</html>
 ```
 
 In your controller, verify the captcha response:
