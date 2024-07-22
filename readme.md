@@ -6,7 +6,7 @@ This package provides an easy way to integrate hCaptcha into your Symfony applic
 ## Installation
 
 ```bash
-composer require ethsam/easy-hcaptcha
+composer require ethsam/easy-hcaptcha:dev-main
 ```
 
 ## Configuration
