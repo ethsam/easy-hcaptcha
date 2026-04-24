@@ -1,22 +1,54 @@
 {
     "name": "ethsam/easy-hcaptcha",
-    "description": "This package provides an easy way to integrate hCaptcha into your Symfony application.",
-    "type": "library",
-    "require": {
-        "php": ">=7.4",
-        "symfony/dependency-injection": "^4.4|^5.0|^6.0|^7.0",
-        "symfony/http-client": "^4.4|^5.0|^6.0|^7.0"
-    },
-    "autoload": {
-        "psr-4": {
-            "Ethsam\\EasyHcaptcha\\": "src/"
-        }
-    },
+    "description": "A modern, zero-config Symfony bundle for hCaptcha: server-side verification, Twig widget, Form Type and Validation Constraint.",
+    "type": "symfony-bundle",
+    "keywords": ["hcaptcha", "captcha", "symfony", "bundle", "spam", "bot", "form", "validation"],
+    "license": "MIT",
     "authors": [
         {
             "name": "Samuel ETHEVE",
             "email": "contact@ethsam.fr"
         }
     ],
-    "license": "MIT"
+    "require": {
+        "php": ">=8.1",
+        "symfony/config": "^6.4 || ^7.0",
+        "symfony/dependency-injection": "^6.4 || ^7.0",
+        "symfony/http-client": "^6.4 || ^7.0",
+        "symfony/http-foundation": "^6.4 || ^7.0",
+        "symfony/http-kernel": "^6.4 || ^7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.5 || ^11.0",
+        "symfony/form": "^6.4 || ^7.0",
+        "symfony/framework-bundle": "^6.4 || ^7.0",
+        "symfony/phpunit-bridge": "^6.4 || ^7.0",
+        "symfony/twig-bundle": "^6.4 || ^7.0",
+        "symfony/validator": "^6.4 || ^7.0",
+        "twig/twig": "^3.0"
+    },
+    "suggest": {
+        "symfony/form": "Use the HcaptchaType form field in your Symfony forms.",
+        "symfony/validator": "Use the Hcaptcha validation constraint on any field.",
+        "symfony/twig-bundle": "Use the hcaptcha_widget() and hcaptcha_script() Twig functions."
+    },
+    "autoload": {
+        "psr-4": {
+            "Ethsam\\EasyHcaptcha\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Ethsam\\EasyHcaptcha\\Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-main": "2.0-dev"
+        }
+    },
+    "minimum-stability": "stable"
 }
