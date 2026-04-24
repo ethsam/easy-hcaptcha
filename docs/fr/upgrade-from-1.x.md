@@ -59,7 +59,7 @@ migrées.
 ### 4. Plancher PHP / Symfony relevé
 
 - PHP **8.1+** (auparavant 7.4)
-- Symfony **5.4 / 6.4 / 7.x** (auparavant 4.4 / 5.x / 6.x / 7.x)
+- Symfony **6.4 LTS / 7.x** (auparavant 4.4 / 5.x / 6.x / 7.x)
 
 ## Nouvelles fonctionnalités
 

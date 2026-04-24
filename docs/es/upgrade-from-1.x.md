@@ -59,7 +59,7 @@ migrarse.
 ### 4. Subida de mínimos PHP / Symfony
 
 - PHP **8.1+** (antes 7.4)
-- Symfony **5.4 / 6.4 / 7.x** (antes 4.4 / 5.x / 6.x / 7.x)
+- Symfony **6.4 LTS / 7.x** (antes 4.4 / 5.x / 6.x / 7.x)
 
 ## Nuevas funcionalidades
 

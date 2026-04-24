@@ -25,12 +25,12 @@ ready in under a minute.
 - HTTPS-only verify URL, attribute name allow-list, JS callback identifier check
 - Test-mode toggle (`enabled: false`) — no HTTP call, always succeeds
 - PSR-3 logging on transport failures
-- 100% PHP 8.1+ / Symfony 5.4 · 6.4 · 7.x compatible
+- 100% PHP 8.1+ / Symfony 6.4 LTS · 7.x compatible
 
 ## Requirements
 
 - PHP **8.1** or higher
-- Symfony **5.4**, **6.4** or **7.x**
+- Symfony **6.4 LTS** or **7.x**
 
 ## Quick install
 

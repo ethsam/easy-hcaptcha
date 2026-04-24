@@ -58,7 +58,7 @@ string coercion. Strict comparisons like `=== true` need to be migrated.
 ### 4. PHP / Symfony floor raised
 
 - PHP **8.1+** (was 7.4)
-- Symfony **5.4 / 6.4 / 7.x** (was 4.4 / 5.x / 6.x / 7.x)
+- Symfony **6.4 LTS / 7.x** (was 4.4 / 5.x / 6.x / 7.x)
 
 ## New features
 
