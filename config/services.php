@@ -32,8 +32,7 @@ return static function (ContainerConfigurator $container): void {
         ->public();
 
     // Public alias on the interface only — consumers should never depend on
-    // the concrete class. The concrete-class alias is private (still
-    // resolvable via #[Autowire(service: HcaptchaVerifier::class)] if needed).
+    // the concrete class. The concrete-class alias stays private.
     $services->alias(HcaptchaVerifierInterface::class, 'easy_hcaptcha.verifier')->public();
     $services->alias(HcaptchaVerifier::class, 'easy_hcaptcha.verifier');
 
