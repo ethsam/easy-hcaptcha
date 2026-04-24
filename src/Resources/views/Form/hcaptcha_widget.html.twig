@@ -1,0 +1,7 @@
+{%- block hcaptcha_widget -%}
+    <div class="h-captcha"
+         data-sitekey="{{ site_key }}"
+         {% if theme %}data-theme="{{ theme }}"{% endif %}
+         {% if size %}data-size="{{ size }}"{% endif %}
+    ></div>
+{%- endblock hcaptcha_widget -%}
