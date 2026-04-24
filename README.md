@@ -124,6 +124,10 @@ composer install
 vendor/bin/phpunit
 ```
 
+## Changelog
+
+See [CHANGELOG.md](CHANGELOG.md) for a detailed history of releases.
+
 ## License
 
 Released under the [MIT License](LICENSE) — see the file for details.
