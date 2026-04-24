@@ -1,6 +1,7 @@
 # easy-hcaptcha
 
 [![CI](https://github.com/ethsam/easy-hcaptcha/actions/workflows/ci.yml/badge.svg)](https://github.com/ethsam/easy-hcaptcha/actions/workflows/ci.yml)
+[![codecov](https://codecov.io/gh/ethsam/easy-hcaptcha/branch/main/graph/badge.svg)](https://codecov.io/gh/ethsam/easy-hcaptcha)
 [![Latest Stable Version](https://img.shields.io/packagist/v/ethsam/easy-hcaptcha.svg)](https://packagist.org/packages/ethsam/easy-hcaptcha)
 [![License](https://img.shields.io/packagist/l/ethsam/easy-hcaptcha.svg)](LICENSE)
 [![PHP Version](https://img.shields.io/packagist/php-v/ethsam/easy-hcaptcha.svg)](composer.json)
